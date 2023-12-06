@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">  
+<head> 
+  <meta charset="utf-8"> 
+  <title>4</title> 
+  <link rel="stylesheet" href="https://ayearofconsciouspractice.com/assets/css/screen.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Playfair+Display:ital@1&display=swap');
+    body{
+        margin: 0;
+        background-color: #E3C4E5;
+       padding-right: 0%;
+       background-size: auto;
+       width: 100%;
+    }
+    header {
+      text-align: left;
+      background-color: white;
+      color: black;
+      width: 100%;
+    }
+    .home header h1 {
+    padding: 8px;
+    text-align: left;
+    font-size: 5.25vw;
+    letter-spacing: 0.1vw;
+    margin: 0;
+}
+
+/* 헤더 링크에 적용된 transition 효과 초기화 */
+header a.-hide {
+  transition: none !important;
+}
+header h1 a:nth-child(2) {
+    font-size: 62px; /* 작은 글자 크기로 조정 */
+  }header h1 a:nth-child(3) {
+    font-size: 62px; /* 작은 글자 크기로 조정 */
+  }
+header h1 a:nth-child(4) {
+    font-size: 62px; /* 작은 글자 크기로 조정 */
+  }
+  header h1 a:nth-child(5) {
+    font-size: 62px; /* 작은 글자 크기로 조정 */
+  }
+  header h1 a:nth-child(6) {
+    font-size: 62px; /* 작은 글자 크기로 조정 */
+  }
+  .slide {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .overlap-wrapper {
+  width: 1920px;
+  height: 1000px;
+}
+
+.slide .overlap {
+  position: relative;
+  height: 1500px;
+  top: -2px;
+}
+
+.slide .rectangle {
+  left: 202px;
+  position: absolute;
+  width: 576px;
+  height: 542px;
+  top: 55px;
+  background-color: #ffffff;
+  border-radius: 41px;
+}
+
+.slide .div {
+  left: 1142px;
+  position: absolute;
+  width: 576px;
+  height: 542px;
+  top: 55px;
+  background-color: #ffffff;
+  border-radius: 41px;
+}
+
+.slide .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 1313px;
+  top: 0;
+  left: 0;
+}
+
+.slide .vector {
+  position: absolute;
+  width: 2px;
+  height: 1312px;
+  top: 1px;
+  left: 959px;
+}
+
+.slide .img {
+  position: absolute;
+  width: 1920px;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
+
+.slide .vector-2 {
+  position: absolute;
+  width: 882px;
+  height: 2px;
+  top: 733px;
+  left: 49px;
+}
+
+.slide .vector-3 {
+  position: absolute;
+  width: 882px;
+  height: 2px;
+  top: 860px;
+  left: 49px;
+}
+
+.slide .vector-4 {
+  position: absolute;
+  width: 882px;
+  height: 2px;
+  top: 1045px;
+  left: 49px;
+}
+
+.slide .vector-5 {
+  position: absolute;
+  width: 882px;
+  height: 2px;
+  top: 733px;
+  left: 989px;
+}
+
+.slide .vector-6 {
+  position: absolute;
+  width: 882px;
+  height: 2px;
+  top: 1000px;
+  left: 989px;
+}
+
+.slide .text-wrapper {
+  width: 678px;
+  top: 636px;
+  left: 50px;
+  font-size: 64px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .p {
+  width: 788px;
+  top: 752px;
+  left: 60px;
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .text-wrapper-2 {
+  width: 788px;
+  top: 752px;
+  left: 989px;
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .text-wrapper-3 {
+  width: 788px;
+  top: 857px;
+  left: 60px;
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .text-wrapper-4 {
+  width: 900px;
+  top: 638px;
+  left: 989px;
+  font-size: 62px;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide .text-wrapper-5 {
+  width: 788px;
+  top: 1043px;
+  left: 60px;
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+video {
+            width: 80%; /* 비디오 너비 조절 */
+            max-width: 500px; /* 최대 비디오 너비 제한 */
+            border-radius: 30px; /* 둥근 테두리 적용 */
+        }
+#video-container {
+            position: relative; /* 부모 요소를 상대 위치로 설정 */
+            margin-top: 0px; /* 비디오의 위쪽 여백 조절 */
+            left: 239px;
+            bottom: -77px;
+            
+        }
+        #video-container1 {
+            position: relative; /* 부모 요소를 상대 위치로 설정 */
+            margin-top: 0px; /* 비디오의 위쪽 여백 조절 */
+            left: 1180px;
+            bottom: 428px;
+            
+        }
+      
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+  </style>
+</head><body class="home" data-host="magnolia">
+
+  <header>
+   
+    <h1><a href="mm.html">MINIMALISM</a>, <a href="bs.html">방식</a>
+        <a href="dq.html">  다큐멘터리</a><a href="tt.html">  인테리어</a>
+        <a href="iv.html">  사례</a><a href="index.html">   홈</a></h1>
+    </header>
+
+</body>
+<body>
+    <div class="slide">
+        <div class="overlap-wrapper">
+          <div class="overlap">
+            <div class="rectangle"></div>
+            <div class="div"></div>
+            <div class="overlap-group">
+              <img class="vector" src="Vector 1.png" /> <img class="img" src="Vector 2.png" />
+            </div>
+            <div id="video-container">
+                <video controls>
+                   
+            <source src="dq1.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div id="video-container1">
+                <video controls>
+                   
+            <source src="dq2.mp4" type="video/mp4">
+            </video>
+            </div>
+            <img class="vector-2" src="Vector 3.png" />
+            <img class="vector-3" src="Vector 5.png" />
+            <img class="vector-4" src="Vector 7.png" />
+            <img class="vector-5" src="Vector 4.png" />
+            <img class="vector-6" src="Vector 6.png" />
+            <div class="text-wrapper">나는 단순하게 살기로 했다.</div>
+            <p class="p">
+              무분별한 물건 구매와 너무 많은 물건의 소유에 지쳐 간소화한 삶을 택한 이들이 있다. <br />최소한의 물건으로
+              살아가는 미니멀리스트.
+            </p>
+            <p class="text-wrapper-2">
+              사람들은 무엇으로 행복해지는지 혼동하는 것 같아요. 많은 사람이 물건을 많이 갖는 것이 정답이라 생각하고
+              만족스러운 삶을 사는 것이라 생각하죠.<br /><br /><br />우리는 사람으로서 자기를 보살펴 주는 사람에게 강한
+              애착을 느끼는 게 당연하죠.<br />가끔은 이런 애착이 물건으로 옮겨가는 것 같아요. 마치 물건이 사람만큼 중요한
+              것처럼 말이죠.
+            </p>
+            <p class="text-wrapper-3">
+              일본의 한 미니멀리스트, 사사키 후미오 씨를 만나봤다. 그의 집안에는 당연히 있다고 생각하는 물건이 보이지
+              않는다. 아무것도 없는 듯한 텅 빈 공간에서 그는 어떻게 물건 없이 살 수 있을까? 그는 대체 왜, 어떻게 이런 삶을
+              살게 되었을까?<br />
+              <br />그의 물건 없이 생활하는 놀라운 일상이 공개된다.
+            </p>
+            <div class="text-wrapper-4">미니멀리즘: 비우는 사람들의 이야기</div>
+            <p class="text-wrapper-5">
+              ‘청소는 자신을 갈고닦는 일’ 이라는 말을 자주 듣는데 이는 금언이나 다름없다.<br />방에 쌓여 있는 것은 먼지와
+              더러움이 아니다. 먼지나 더러움을 방치한 과거의 자신이 쌓여 있는 것이다.<br /><br />나 자신의 가치는 갖고
+              있는 물건의 합계가 아니다. 물건으로 행복해 지는 건 아주 잠깐 동안일 뿐이다. 필요 이상으로 많은 물건은
+              에너지와 시간은 물론, 결국에는 모든 것을<br />빼앗아간다. 이런 사실을 느끼기 시작한 사람들이 바로
+              미니멀리스트다.
+            </p>
+          </div>
+</body>
+</html>
